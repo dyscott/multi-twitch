@@ -1,5 +1,5 @@
 # Multi-Twitch :tv:
-A game based off GeoGuessr which shows images of houses from Zillow and asks the user to guess their location.
+A minimalist app for viewing multiple Twitch streams.
 
 ## About
 ![Demo Image](./images/image.jpg)
@@ -14,6 +14,7 @@ I am currently hosting Multi-Twitch on my personal [website](https://www.dyscott
 ### Option 2 - Development Server
 
 Run the following command (assuming you have NPM installed):
+
 ```npm run start```
 
 ### Option 3 - Self-Host
