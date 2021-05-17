@@ -4,7 +4,7 @@ A minimalist app for viewing multiple Twitch streams.
 ## About
 ![Demo Image](./images/image.jpg)
 
-A minimalist app for viewing multiple Twitch streams.
+Multi-Twitch is an app that enables the user to watch multiple Twitch streams in grid layout (vaguely inspired by Zoom). It has a minimalistic design and is extremely simple to use.
 
 ## Usage
 
