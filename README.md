@@ -25,7 +25,7 @@ Run the following command (assuming you have NPM installed):
 
 ## Details
 
-While I figured this app could serve as a more modern-looking alternative to apps like [MultiTwitch.tv](https://multitwitch.tv), I primarly made it as a learning exercise. Here are some note-worthy details about the app:
+While I figured this app could serve as a more modern-looking alternative to an app like [MultiTwitch.tv](https://multitwitch.tv), I primarly made it as a learning exercise. Here are some note-worthy details about the app:
 - Built in [React](https://reactjs.org/) using [Material UI](https://material-ui.com/) for UI (my first time using React).
 - Uses [rect-scaler](https://github.com/fzembow/rect-scaler) to calculate the most efficient layout based on screen size and the number of streams.
 - Uses [react-twitch-embed](https://github.com/moonstar-x/react-twitch-embed) to display streams. 
