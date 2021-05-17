@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Multi-Twitch :tv:
+A game based off GeoGuessr which shows images of houses from Zillow and asks the user to guess their location.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+![Demo Image](./images/image.jpg)
 
-## Available Scripts
+A minimalist app for viewing multiple Twitch streams.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+### Option 1 - Hosted
+I am currently hosting Multi-Twitch on my personal [website](https://www.dyscott.xyz/multi-twitch). This is subject to change if demand increases (the Google Maps API is expensive).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Option 2 - Development Server
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Run the following command (assuming you have NPM installed):
+```npm run start```
 
-### `npm test`
+### Option 3 - Self-Host
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Build using the following command: `npm run build`
 
-### `npm run build`
+2. Host the files in the folder `/build` using your choice of web server.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Details
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+While I figured this app could serve as a more modern-looking alternative to apps like [MultiTwitch.tv](https://multitwitch.tv), I primarly made it as a learning exercise. Here are some note-worthy details about the app:
+- Built in [React](https://reactjs.org/) using [Material UI](https://material-ui.com/) for UI (my first time using React).
+- Uses [rect-scaler](https://github.com/fzembow/rect-scaler) to calculate the most efficient layout based on screen size and the number of streams.
+- Uses [react-twitch-embed](https://github.com/moonstar-x/react-twitch-embed) to display streams. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Improvements
+Here are some improvements that could be made:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Layout adjustments. Currently, the way columns are spaced out feels a bit off.
+- [ ] More testing. There might be bugs, although I haven't run into any.
+- [ ] Chat. Currently, there is no way to display chat. This could be added as an option.
