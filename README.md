@@ -9,7 +9,7 @@ Multi-Twitch is an app that enables the user to watch multiple Twitch streams in
 ## Usage
 
 ### Option 1 - Hosted
-I am currently hosting Multi-Twitch on my personal [website](https://www.dyscott.xyz/projects/multi-twitch).
+I am currently hosting Multi-Twitch on my personal [website](https://projects.dyscott.xyz/multi-twitch).
 
 ### Option 2 - Development Server
 
